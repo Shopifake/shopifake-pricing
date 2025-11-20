@@ -27,7 +27,8 @@ server:
   port: ${PORT}
 
 cors:
-  allowed-origins: "http://localhost:3000"
+  # TODO: Why was it localhost:3000 before? Change if needed but might want to keep it "*" for dev.
+  allowed-origins: "*"
   allowed-methods: "GET,POST,PUT,DELETE,PATCH,OPTIONS"
   allowed-headers: "*"
   allow-credentials: false
