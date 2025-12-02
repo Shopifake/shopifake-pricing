@@ -36,11 +36,6 @@ management:
       show-details: always
       probes:
         enabled: true
-  otlp:
-    metrics:
-      export:
-        url: ${OTLP_METRICS_URL}
-        enabled: true
 
 cors:
   # TODO: Why was it localhost:3000 before? Change if needed but might want to keep it "*" for dev.
