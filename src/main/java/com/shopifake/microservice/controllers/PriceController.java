@@ -25,7 +25,7 @@ import java.util.UUID;
  * REST API for product pricing.
  */
 @RestController
-@RequestMapping("/api/prices")
+@RequestMapping("/")
 @RequiredArgsConstructor
 @Tag(name = "Pricing")
 public class PriceController {
